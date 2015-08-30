@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cerberus.FoodOrdering.Web", "Cerberus.FoodOrdering.Web\Cerberus.FoodOrdering.Web.csproj", "{3173C66A-0AFE-4339-93CF-3D166EFFE607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cerberus.FoodOrdering.Web.Tests", "Cerberus.FoodOrdering.Web.Tests\Cerberus.FoodOrdering.Web.Tests.csproj", "{BFD20A74-39D6-4DAE-BBBD-DA0A1BB775E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{CB54315C-40E5-45DC-B228-39405806C133}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{92802699-39FB-4469-A046-AFD5B9346A3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{4221188E-BB97-4AAB-8958-F06E117FD232}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cerberus.FoodOrdering.DataAccess", "Cerberus.FoodOrdering.DataAccess\Cerberus.FoodOrdering.DataAccess.csproj", "{B973EF70-94DE-4C7C-B724-F5382D3A2F2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cerberus.FoodOrdering.DataAccess.Tests", "Cerberus.FoodOrdering.DataAccess.Tests\Cerberus.FoodOrdering.DataAccess.Tests.csproj", "{6D7323AA-A827-40CB-87B0-267E3564BCBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cerberus.FoodOrdering.API", "Cerberus.FoodOrdering.API\Cerberus.FoodOrdering.API.csproj", "{052B3B14-5EFB-4FF5-924C-76417D5E7D78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cerberus.FoodOrdering.API.Tests", "Cerberus.FoodOrdering.API.Tests\Cerberus.FoodOrdering.API.Tests.csproj", "{89C9C06E-B5BB-4B47-A1C7-212323514B30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3173C66A-0AFE-4339-93CF-3D166EFFE607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3173C66A-0AFE-4339-93CF-3D166EFFE607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3173C66A-0AFE-4339-93CF-3D166EFFE607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3173C66A-0AFE-4339-93CF-3D166EFFE607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD20A74-39D6-4DAE-BBBD-DA0A1BB775E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD20A74-39D6-4DAE-BBBD-DA0A1BB775E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD20A74-39D6-4DAE-BBBD-DA0A1BB775E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD20A74-39D6-4DAE-BBBD-DA0A1BB775E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B973EF70-94DE-4C7C-B724-F5382D3A2F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B973EF70-94DE-4C7C-B724-F5382D3A2F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B973EF70-94DE-4C7C-B724-F5382D3A2F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B973EF70-94DE-4C7C-B724-F5382D3A2F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D7323AA-A827-40CB-87B0-267E3564BCBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D7323AA-A827-40CB-87B0-267E3564BCBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D7323AA-A827-40CB-87B0-267E3564BCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D7323AA-A827-40CB-87B0-267E3564BCBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{052B3B14-5EFB-4FF5-924C-76417D5E7D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052B3B14-5EFB-4FF5-924C-76417D5E7D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052B3B14-5EFB-4FF5-924C-76417D5E7D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052B3B14-5EFB-4FF5-924C-76417D5E7D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C9C06E-B5BB-4B47-A1C7-212323514B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C9C06E-B5BB-4B47-A1C7-212323514B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C9C06E-B5BB-4B47-A1C7-212323514B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C9C06E-B5BB-4B47-A1C7-212323514B30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3173C66A-0AFE-4339-93CF-3D166EFFE607} = {CB54315C-40E5-45DC-B228-39405806C133}
+		{BFD20A74-39D6-4DAE-BBBD-DA0A1BB775E9} = {92802699-39FB-4469-A046-AFD5B9346A3B}
+		{B973EF70-94DE-4C7C-B724-F5382D3A2F2F} = {4221188E-BB97-4AAB-8958-F06E117FD232}
+		{6D7323AA-A827-40CB-87B0-267E3564BCBB} = {92802699-39FB-4469-A046-AFD5B9346A3B}
+		{052B3B14-5EFB-4FF5-924C-76417D5E7D78} = {4221188E-BB97-4AAB-8958-F06E117FD232}
+		{89C9C06E-B5BB-4B47-A1C7-212323514B30} = {92802699-39FB-4469-A046-AFD5B9346A3B}
+	EndGlobalSection
+EndGlobal
